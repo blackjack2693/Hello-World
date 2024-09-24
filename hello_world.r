@@ -1,7 +1,7 @@
-for (i in 1:100) {
+for (i in 1:10) {
 	print("Hello, World!")
 }
 
 install.packages("cowsay")
 library(cowsay)
-say(what="hallo", by="shark")
+say(what="Halli hallo ida, wie ghet es dir?", by="grumpycat")
